@@ -64,7 +64,7 @@ This simulator addresses these challenges by combining rule-based analytics, NLP
 ## 📦 Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/pbs-what-if-simulator.git
+git clone https://github.com/pbs-what-if-simulator.git
 cd pbs-what-if-simulator
 
 # Create a virtual environment (recommended)
