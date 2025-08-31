@@ -383,8 +383,8 @@ def build_domain_nlp(pbs: pd.DataFrame, procs: pd.DataFrame):
     if spacy is None:
         return None, lookups
 
-    nlp: Language = spacy.blank("en") # type: ignore
-    ruler: EntityRuler = nlp.add_pipe("entity_ruler") # type: ignore
+    nlp: Language = spacy.blank("en")
+    ruler: EntityRuler = nlp.add_pipe("entity_ruler")
     patterns = []
 
     def add_list(values: List[str], label: str):
@@ -893,7 +893,7 @@ st.markdown(
     """
     <style>
     :root {
-        --gov-blue: #000000;
+        --gov-blue: #0e5a8a;
         --gov-sky: #f2f8fc;
         --gov-green: #2d6a4f;
         --gov-grey: #6b7280;
